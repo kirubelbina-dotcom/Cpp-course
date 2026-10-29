@@ -9,7 +9,7 @@ int main() {
     char names[5][20];
     float marks[5][3];
     float average[5];
-    double total[5];
+    double total[5] = {0};
     double top = 0;
 
     for (int i = 0; i < 5; i++)
@@ -43,7 +43,7 @@ int main() {
              << setw(10) << marks[i][1]
              << setw(10) << marks[i][2]
              << setw(10) << total[i]
-             << average[i] << endl;
+             << setw(10) << average[i] << endl;
     }
 
     for (int i = 0; i < 5; i++)
