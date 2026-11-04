@@ -7,7 +7,7 @@ int main()
     float num = 42.8;
     int x = 5, y = 7;
 
-    void show()
+     void show()
     {
         int y = 10;
         cout << x << " " << y;
